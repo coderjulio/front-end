@@ -1,0 +1,38 @@
+int main()
+{
+    double v; //declaração de variável
+    
+    printf("Insira um valor: \n"); //printa comando p/ o usuário inseirir um valor
+    scanf("%lf", &v); //lê o valor
+    
+    printf("O quadrado deste valor é: %.1lf \n O cubo deste valor é: %.1lf", pow(v, 2), pow(v, 3));
+    //A linha acima printa o resultado
+
+//segundo
+
+double c, m, i, t; //declaração das variáveis
+    
+    printf("Insira o valor do capital: \n");
+    scanf("%lf", &c);
+    printf("Insira o valor da taxa de juros anual: \n");
+    scanf("%lf", &i);
+    printf("Insira o tempo em anos: \n");
+    scanf("%lf", &t);
+    
+    m = c*(1+ (i/100))*t;
+
+    
+    printf("O montante do capital é: %.2lf", m);
+
+
+//terceiro
+/*
+    double x;
+    
+    printf("Insira um valor: \n");
+    scanf("%lf", &x);
+    printf("A raiz quadrada deste valor é: %.1lf", sqrt(x));
+    
+    return 0;
+}
+*/
